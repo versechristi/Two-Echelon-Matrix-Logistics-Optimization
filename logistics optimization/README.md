@@ -11,7 +11,7 @@ The core application scenario involves one or more central depots replenishing m
 
 The system provides a highly integrated and user-friendly graphical interface, combining complex parameter configuration, algorithm execution, and results visualization into a single seamless experience.
 
-![img.png](img.png)
+![24c4676c66dd8844b5e4303636b804f4](https://github.com/user-attachments/assets/55a730e8-e97c-4479-b67b-2554c0584299)
 
 * **Left Panel (Control Panel)**: Integrates parameter configuration sections (Data Generation, Vehicle/Drone Properties, Objective Function, Algorithm Parameters) and execution controls (Generate Data, Algorithm Selection, Run Optimization).
 * **Right Panel (Results Display)**: Clearly presents results through tabs for an interactive map, algorithm iteration curves, performance comparison charts, and detailed text reports.
@@ -24,7 +24,7 @@ The system provides a highly integrated and user-friendly graphical interface, c
 
 After optimization, the system generates a detailed interactive HTML map using the `Folium` library. Users can zoom, pan, and click on elements within a web browser to intuitively inspect every detail of the planned routes.
 
-![img_2.png](img_2.png)
+![f749df2b40efa8b0afae3704661983d9](https://github.com/user-attachments/assets/376e8da5-029f-4d60-9cc5-fdc66e6c9db2)
 
 > **Map Legend**:
 > * **Dark Blue Square**: First-echelon Depot
@@ -38,8 +38,8 @@ After optimization, the system generates a detailed interactive HTML map using t
 
 To facilitate a side-by-side comparison of different algorithms, the system provides intuitive bar charts that evaluate performance based on two key metrics: "Total Cost" and "Computation Time."
 
-![img_1.png](img_1.png)
-![img_3.png](img_3.png)
+![5415bc38f44f823ab85defdc074a5117](https://github.com/user-attachments/assets/faf56d82-98d8-4954-a4ad-babfa2fa3329)
+![213e76ff12149d24c0084b2624216398](https://github.com/user-attachments/assets/1227fa36-ea27-468c-9f33-76acc94ba6f6)
 
 > **Chart Legend**:
 > * **Left Chart (Weighted Cost)**: Compares the final scores of Greedy, Genetic Algorithm, Simulated Annealing, and PSO on the weighted objective function (which combines transport costs, time costs, and penalties). A lower cost indicates a higher-quality solution.
