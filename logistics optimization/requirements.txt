@@ -1,0 +1,14 @@
+# Python Dependencies for the Logistics Optimization System
+# Specifies minimum versions, allowing for installation of newer compatible releases.
+
+# Core library for numerical operations
+numpy>=1.26.4
+
+# Powerful data analysis and manipulation library
+pandas>=2.2.2
+
+# Core library for creating static, animated, and interactive visualizations
+matplotlib>=3.8.4
+
+# Library for creating interactive leaflet maps
+folium>=0.17.0
