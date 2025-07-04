@@ -36,14 +36,14 @@ After optimization, the system generates a detailed interactive HTML map using t
 
 #### 2. Algorithm Performance Comparison Chart
 
-To facilitate a side-by-side comparison of different algorithms, the system provides intuitive bar charts that evaluate performance based on two key metrics: "Total Cost" and "Computation Time."
+To facilitate a side-by-side comparison of different algorithms, the system provides intuitive bar charts that evaluate performance based on two key metrics: "Total Cost" and "Makespan."
 
 ![5415bc38f44f823ab85defdc074a5117](https://github.com/user-attachments/assets/faf56d82-98d8-4954-a4ad-babfa2fa3329)
 ![213e76ff12149d24c0084b2624216398](https://github.com/user-attachments/assets/1227fa36-ea27-468c-9f33-76acc94ba6f6)
 
 > **Chart Legend**:
 > * **Left Chart (Weighted Cost)**: Compares the final scores of Greedy, Genetic Algorithm, Simulated Annealing, and PSO on the weighted objective function (which combines transport costs, time costs, and penalties). A lower cost indicates a higher-quality solution.
-> * **Right Chart (Computation Time)**: Shows the time in seconds required for each algorithm to complete the optimization, reflecting its computational efficiency.
+> * **Right Chart (Makespan)**: Shows the time required for the complete simulation of each algorithm, which reflects the algorithm's optimization capability.
 
 ---
 
