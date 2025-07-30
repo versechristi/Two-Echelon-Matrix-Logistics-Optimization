@@ -80,6 +80,7 @@ To facilitate a side-by-side comparison of different algorithms, the system prov
 
 ## Project Structure
 
+```
 logistics_optimization/
 │
 ├── main.py                  # Main application entry point, initializes the environment and launches the GUI
@@ -113,6 +114,7 @@ logistics_optimization/
 │   └── plot_generator.py    # Matplotlib chart (iteration, comparison) generator
 │
 └── output/                  # Default directory for saved results
+```
 
 
 ## Installation & Usage
