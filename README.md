@@ -80,6 +80,7 @@
 
 ## 项目结构
 
+```
 logistics_optimization/
 │
 ├── main.py                  # 主程序入口，负责初始化环境并启动 GUI
@@ -113,6 +114,7 @@ logistics_optimization/
 │   └── plot_generator.py    # Matplotlib 图表（迭代、对比）生成器
 │
 └── output/                  # 输出目录，存放运行结果
+```
 
 
 ## 安装与运行
